@@ -1,6 +1,6 @@
 # Classes and Methods of Example - 2
 
-1. class FeedData(Stage)
+#### 1. class FeedData(Stage)
 
        from surround import SurroundData, Stage
        import numpy as np
@@ -19,7 +19,10 @@
              print("this is working fine")
 
 
-2. classs SVRData(SurroundData)
+
+
+
+#### 2. classs SVRData(SurroundData)
 
        class SVRData(SurroundData):
    
