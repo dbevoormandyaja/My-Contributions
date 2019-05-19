@@ -55,12 +55,18 @@ class Stage(ABC):
 
 ### Methods
 
-#### 1. stage.split(".")
+Method cannot be called by its name only, we need to invoke the class by a reference of that class in which it is defined, i.e. method is defined within a class and hence they are dependent on that class.
 
-#### 2. ".".join()
+#### 1. def __init__(self, surround_stages=None, module=None):
 
-#### 3. .append()
+#### 2. def __init__(self, surround, type_of_uploaded_object=None):
 
-#### 4. .dump_output()
+#### 3. def dump_output(self, surround_data, config):
 
-#### 5. datetime.now()
+#### 4. def operate(self, surround_data, config):
+
+#### 5. def init_stage(self, config):
+
+#### 6. 
+
+#### 7.
