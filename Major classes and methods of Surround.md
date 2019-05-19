@@ -55,12 +55,12 @@ class Stage(ABC):
 
 ### Methods
 
-stage.split(".")
+#### 1. stage.split(".")
 
-".".join()
+#### 2. ".".join()
 
-.append()
+#### 3. .append()
 
-.dump_output()
+#### 4. .dump_output()
 
-datetime.now()
+#### 5. datetime.now()
