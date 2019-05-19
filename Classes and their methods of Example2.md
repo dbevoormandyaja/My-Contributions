@@ -11,7 +11,9 @@
              print("this is working fine")
 
 
-The class `FeedData(Stage)`  is to input the data to the model/framework
+The class `FeedData(Stage)`  is to input the data to the model/framework by reading the data file `Apple_Data_300.csv`.
+
+The method `__init__(self)` is dependent on the class `FeedData(Stage)`
 
 
 #### 2. classs SVRData(SurroundData)
