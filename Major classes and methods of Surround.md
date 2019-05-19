@@ -59,14 +59,20 @@ Method cannot be called by its name only, we need to invoke the class by a refer
 
 #### 1. def __init__(self, surround_stages=None, module=None):
 
-#### 2. def __init__(self, surround, type_of_uploaded_object=None):
+#### 2. def set_config(self, config):
 
-#### 3. def dump_output(self, surround_data, config):
+#### 3. def _execute_stage(self, stage, stage_data):
 
-#### 4. def operate(self, surround_data, config):
+#### 4. def init_stages(self):
 
-#### 5. def init_stage(self, config):
+#### 5. def process(self, surround_data):
 
-#### 6. 
+#### 6. def __init__(self, surround, type_of_uploaded_object=None):
 
-#### 7.
+#### 7. def run(self, input_data):
+
+#### 8. def dump_output(self, surround_data, config):
+
+#### 9. def operate(self, surround_data, config):
+
+#### 10. def init_stage(self, config):
