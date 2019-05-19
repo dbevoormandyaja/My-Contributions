@@ -2,14 +2,6 @@
 
 #### 1. class FeedData(Stage)
 
-       from surround import SurroundData, Stage
-       import numpy as np
-       from sklearn.svm import SVR
-       from datetime import datetime
-       import matplotlib.pyplot as plt
-       import pandas as pd
-
-
        class FeedData(Stage):
 
           def __init__(self):
@@ -19,7 +11,7 @@
              print("this is working fine")
 
 
-
+The class `FeedData(Stage)`  is to input the data to the model/framework
 
 
 #### 2. classs SVRData(SurroundData)
