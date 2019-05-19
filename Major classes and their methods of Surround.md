@@ -131,6 +131,10 @@
     class AllowedTypes(Enum):
         JSON = ["application/json"]
         FILE = ["file"]
+        
+An enumeration is a set of symbolic names (members) bound to unique, constant values. Within an enumeration, the members can be compared by identity, and the enumeration itself can be iterated over.
+
+Here, an Enum class AllowedTypes has been created which specifies the types, with attributes `JSON` and `FILE` called enumeration members. These members are constants. If we try and modify any of the members, we will get an error saying `AttributeError`.
 
 
 #### 4. class Stage(ABC):
